@@ -17,3 +17,8 @@ http://localhost:3000/send
 ```
 http://localhost:3000/receive
 ```
+
+# URL 
+```
+queueURL: enter queue url
+```
