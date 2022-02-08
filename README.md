@@ -3,7 +3,8 @@
 ## Configuration before running applications
 ```1) Download and configue aws by providing key and security key.
    2) Run command to install the dependency : npm install
-   3) To run code use command : node app.js
+   3) Enter queue url on variable: "queueURL: enter queue url"
+   4) To run code use command : node app.js
 ```
 
 # APIs
@@ -16,9 +17,4 @@ http://localhost:3000/send
 ## API to receive message from queue
 ```
 http://localhost:3000/receive
-```
-
-# URL 
-```
-queueURL: enter queue url
 ```
