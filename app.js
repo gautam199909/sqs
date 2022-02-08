@@ -9,7 +9,7 @@ app.use(express.json());
 //Config AWS
 const creds = new AWS.SharedIniFileCredentials({profile: 'default'});
 const sqs = new AWS.SQS({creds,region: 'us-east-1'});
-const queueURL = "https://sqs.us-east-1.amazonaws.com/123191721163/assignmentQueue";
+const queueURL = "eneter your url here;
 
 
 
